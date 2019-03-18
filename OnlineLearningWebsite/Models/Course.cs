@@ -20,6 +20,8 @@ namespace OnlineLearningWebsite.Models
         [StringLength(100)]
         public string CourseLevel { get; set; }
 
+        [DisplayFormat (DataFormatString = "{0:c}")]
+        [Range (1, 100000)]
         public decimal Price { get; set; }
 
         public int CategoryId { get; set; }

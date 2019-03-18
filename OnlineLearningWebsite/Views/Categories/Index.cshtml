@@ -1,11 +1,11 @@
 ﻿@model IEnumerable<OnlineLearningWebsite.Models.Category>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Categories";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Categories</h2>
 
 @if (Request.IsAuthenticated)
 {
@@ -14,7 +14,7 @@
     </p>
 }
 
-<table class="table">
+<table class="table table-hover table-striped sortable">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.CategoryArea)
@@ -25,7 +25,7 @@
         <th>
             @Html.DisplayNameFor(model => model.CategoryReview)
         </th>
-        <th></th>
+        <th>Actions</th>
     </tr>
 
     @foreach (var item in Model)

@@ -24,6 +24,8 @@ namespace OnlineLearningWebsite.Models
         [StringLength(100)]
         public string CategoryName { get; set; }
 
+        [DisplayFormat (DataFormatString = "{0:n2}")]
+        [Range (1, 10)]
         public int CategoryReview { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
