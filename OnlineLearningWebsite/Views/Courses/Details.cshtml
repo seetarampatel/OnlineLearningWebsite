@@ -46,6 +46,11 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.CourseId }) |
+    @if (Request.IsAuthenticated)
+    {
+        @Html.ActionLink("Edit", "Edit", new { id = Model.CourseId }) 
+        <b>|</b>
+    }
+
     @Html.ActionLink("Back to List", "Index")
 </p>

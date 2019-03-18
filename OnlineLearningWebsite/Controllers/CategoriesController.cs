@@ -10,6 +10,7 @@ using OnlineLearningWebsite.Models;
 
 namespace OnlineLearningWebsite.Controllers
 {
+
     public class CategoriesController : Controller
     {
         private DbModel db = new DbModel();
@@ -36,6 +37,7 @@ namespace OnlineLearningWebsite.Controllers
         }
 
         // GET: Categories/Create
+        [Authorize]
         public ActionResult Create()
         {
             return View();
@@ -46,6 +48,7 @@ namespace OnlineLearningWebsite.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public ActionResult Create([Bind(Include = "CategoryId,CategoryArea,CategoryName,CategoryReview")] Category category)
         {
             if (ModelState.IsValid)
@@ -59,6 +62,7 @@ namespace OnlineLearningWebsite.Controllers
         }
 
         // GET: Categories/Edit/5
+        [Authorize]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -76,6 +80,7 @@ namespace OnlineLearningWebsite.Controllers
         // POST: Categories/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "CategoryId,CategoryArea,CategoryName,CategoryReview")] Category category)
@@ -90,6 +95,7 @@ namespace OnlineLearningWebsite.Controllers
         }
 
         // GET: Categories/Delete/5
+        [Authorize]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -105,6 +111,7 @@ namespace OnlineLearningWebsite.Controllers
         }
 
         // POST: Categories/Delete/5
+        [Authorize]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)

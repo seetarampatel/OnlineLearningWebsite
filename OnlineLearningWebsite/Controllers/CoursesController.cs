@@ -37,6 +37,7 @@ namespace OnlineLearningWebsite.Controllers
         }
 
         // GET: Courses/Create
+        [Authorize]
         public ActionResult Create()
         {
             ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "CategoryArea");
@@ -48,6 +49,7 @@ namespace OnlineLearningWebsite.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public ActionResult Create([Bind(Include = "CourseId,CourseName,CourseLevel,Price,CategoryId")] Course course)
         {
             if (ModelState.IsValid)
@@ -62,6 +64,7 @@ namespace OnlineLearningWebsite.Controllers
         }
 
         // GET: Courses/Edit/5
+        [Authorize]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -82,6 +85,7 @@ namespace OnlineLearningWebsite.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public ActionResult Edit([Bind(Include = "CourseId,CourseName,CourseLevel,Price,CategoryId")] Course course)
         {
             if (ModelState.IsValid)
@@ -95,6 +99,7 @@ namespace OnlineLearningWebsite.Controllers
         }
 
         // GET: Courses/Delete/5
+        [Authorize]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -112,6 +117,7 @@ namespace OnlineLearningWebsite.Controllers
         // POST: Courses/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public ActionResult DeleteConfirmed(int id)
         {
             Course course = db.Courses.Find(id);

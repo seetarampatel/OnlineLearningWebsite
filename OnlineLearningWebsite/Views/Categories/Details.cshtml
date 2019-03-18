@@ -38,6 +38,11 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.CategoryId }) |
+    @if (Request.IsAuthenticated)
+    {
+        @Html.ActionLink("Edit", "Edit", new { id = Model.CategoryId }) 
+        <b>|</b>
+    }
+
     @Html.ActionLink("Back to List", "Index")
 </p>
