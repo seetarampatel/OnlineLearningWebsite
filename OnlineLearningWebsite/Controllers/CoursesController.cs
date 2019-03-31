@@ -12,7 +12,19 @@ namespace OnlineLearningWebsite.Controllers
 {
     public class CoursesController : Controller
     {
-        private DbModel db = new DbModel();
+        // private DbModel db = new DbModel();
+        IMockCourses db;
+
+        // Default Constructor
+        public CoursesController()
+        {
+            this.db = new IDataCourses();
+        }
+
+        public CoursesController(IMockCourses mockdb)
+        {
+            this.db = mockdb;
+        }
 
         // GET: Courses
         public ActionResult Index()
@@ -28,7 +40,8 @@ namespace OnlineLearningWebsite.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Course course = db.Courses.Find(id);
+            // Course course = db.Courses.Find(id);
+            Course course = db.Courses.SingleOrDefault(c => c.CourseId == id);
             if (course == null)
             {
                 return HttpNotFound();
@@ -54,8 +67,9 @@ namespace OnlineLearningWebsite.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Courses.Add(course);
-                db.SaveChanges();
+                // db.Courses.Add(course);
+                // db.SaveChanges();
+                db.Save(course);
                 return RedirectToAction("Index");
             }
 
@@ -71,7 +85,8 @@ namespace OnlineLearningWebsite.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Course course = db.Courses.Find(id);
+            // Course course = db.Courses.Find(id);
+            Course course = db.Courses.SingleOrDefault(c => c.CourseId == id);
             if (course == null)
             {
                 return HttpNotFound();
@@ -90,8 +105,9 @@ namespace OnlineLearningWebsite.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Entry(course).State = EntityState.Modified;
-                db.SaveChanges();
+                // db.Entry(course).State = EntityState.Modified;
+                // db.SaveChanges();
+                db.Save(course);
                 return RedirectToAction("Index");
             }
             ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "CategoryArea", course.CategoryId);
@@ -106,7 +122,8 @@ namespace OnlineLearningWebsite.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Course course = db.Courses.Find(id);
+            // Course course = db.Courses.Find(id);
+            Course course = db.Courses.SingleOrDefault(c => c.CourseId == id);
             if (course == null)
             {
                 return HttpNotFound();
@@ -120,9 +137,11 @@ namespace OnlineLearningWebsite.Controllers
         [Authorize]
         public ActionResult DeleteConfirmed(int id)
         {
-            Course course = db.Courses.Find(id);
-            db.Courses.Remove(course);
-            db.SaveChanges();
+            // Course course = db.Courses.Find(id);
+            Course course = db.Courses.SingleOrDefault(c => c.CourseId == id);
+            // db.Courses.Remove(course);
+            // db.SaveChanges();
+            db.Delete(course);
             return RedirectToAction("Index");
         }
 
