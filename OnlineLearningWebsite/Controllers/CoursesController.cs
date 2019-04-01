@@ -30,7 +30,7 @@ namespace OnlineLearningWebsite.Controllers
         public ActionResult Index()
         {
             var courses = db.Courses.Include(c => c.Category);
-            return View(courses.ToList());
+            return View("Index", courses.ToList());
         }
 
         // GET: Courses/Details/5
@@ -46,7 +46,7 @@ namespace OnlineLearningWebsite.Controllers
             {
                 return HttpNotFound();
             }
-            return View(course);
+            return View("Details", course);
         }
 
         // GET: Courses/Create
@@ -54,7 +54,7 @@ namespace OnlineLearningWebsite.Controllers
         public ActionResult Create()
         {
             ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "CategoryArea");
-            return View();
+            return View("Create");
         }
 
         // POST: Courses/Create
@@ -92,7 +92,7 @@ namespace OnlineLearningWebsite.Controllers
                 return HttpNotFound();
             }
             ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "CategoryArea", course.CategoryId);
-            return View(course);
+            return View("Edit", course);
         }
 
         // POST: Courses/Edit/5
@@ -111,7 +111,7 @@ namespace OnlineLearningWebsite.Controllers
                 return RedirectToAction("Index");
             }
             ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "CategoryArea", course.CategoryId);
-            return View(course);
+            return View("Edit", course);
         }
 
         // GET: Courses/Delete/5
@@ -128,7 +128,7 @@ namespace OnlineLearningWebsite.Controllers
             {
                 return HttpNotFound();
             }
-            return View(course);
+            return View("Delete", course);
         }
 
         // POST: Courses/Delete/5
