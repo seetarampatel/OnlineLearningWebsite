@@ -22,13 +22,6 @@ namespace OnlineLearningWebsite.Tests.Controllers
         [TestInitialize]
         public void TestInitialize()
         {
-            categories = new List<Category>
-            {
-                new Category {CategoryId = 100, CategoryArea = "Computer Science", CategoryName = "Web Development", CategoryReview = 9},
-                new Category {CategoryId = 101, CategoryArea = "Business", CategoryName = "Business Analyst", CategoryReview = 8},
-                new Category {CategoryId = 102, CategoryArea = "Design and Arts", CategoryName = "UX Designer", CategoryReview = 7},
-            };
-
             courses = new List<Course>
             {
                 new Course {CourseId = 1, CourseName = "Java", CourseLevel = "Beginner", Price = 15, CategoryId = 100},
@@ -38,7 +31,6 @@ namespace OnlineLearningWebsite.Tests.Controllers
 
             mock = new Mock<IMockCourses>();
             mock.Setup(c => c.Courses).Returns(courses.AsQueryable());
-            mock.Setup(c => c.Categories).Returns(categories.AsQueryable());
 
             controller = new CoursesController(mock.Object);
         }
