@@ -306,6 +306,19 @@ namespace OnlineLearningWebsite.Tests.Controllers
 
         // Test 21
         [TestMethod]
+        public void EditPostViewBag()
+        {
+            controller.ModelState.AddModelError("Error", "Work");
+
+            // act
+            SelectList result = (controller.Edit(courses[0]) as ViewResult).ViewBag.CategoryId;
+
+            // assert
+            Assert.AreEqual(100, result.SelectedValue);
+        }
+
+        // Test 22
+        [TestMethod]
         public void CreateViewLoads()
         {
             //arrange
@@ -317,7 +330,7 @@ namespace OnlineLearningWebsite.Tests.Controllers
             Assert.AreEqual("Create", result.ViewName);
         }
 
-        // Test 22
+        // Test 23
         [TestMethod]
         public void CreateValidCourse()
         {
@@ -330,7 +343,7 @@ namespace OnlineLearningWebsite.Tests.Controllers
             Assert.AreEqual("Index", result.RouteValues["action"]);
         }
 
-        // Test 23
+        // Test 24
         [TestMethod]
         public void CreateInvalidCourse()
         {
@@ -344,6 +357,21 @@ namespace OnlineLearningWebsite.Tests.Controllers
 
             //assert
             Assert.AreEqual("Create", result.ViewName);
+        }
+
+        // Test 25
+        [TestMethod]
+        public void CreatePostViewBag()
+        {
+            Course validCourse = new Course { CourseId = 4, CourseName = "SQL", CourseLevel = "Beginner", Price = 35, CategoryId = 103 };
+
+            controller.ModelState.AddModelError("Error", "work");
+
+            // act
+            SelectList result = (controller.Create(validCourse) as ViewResult).ViewBag.CategoryId;
+
+            // assert
+            Assert.AreEqual(103, result.SelectedValue);
         }
     }
 }
