@@ -38,6 +38,7 @@ namespace OnlineLearningWebsite.Tests.Controllers
 
             mock = new Mock<IMockCourses>();
             mock.Setup(c => c.Courses).Returns(courses.AsQueryable());
+            mock.Setup(c => c.Categories).Returns(categories.AsQueryable());
 
             controller = new CoursesController(mock.Object);
         }
@@ -212,5 +213,145 @@ namespace OnlineLearningWebsite.Tests.Controllers
             //assert
             Assert.AreEqual("Index", listOfResult[0].Value);
         } 
+
+        // Test 14
+        [TestMethod]
+        public void EditViewLoads()
+        {
+            //arrange
+
+            //act
+            ViewResult result = controller.Edit(1) as ViewResult;
+
+            //assert
+            Assert.AreEqual("Edit", result.ViewName);
+        }
+
+        // Test 15
+        [TestMethod]
+        public void EditViewWithRightCourseId()
+        {
+            //arrange
+
+            //act
+            var result = ((ViewResult)controller.Edit(1)).Model;
+
+            //assert
+            Assert.AreEqual(courses.SingleOrDefault(c => c.CourseId == 1), result);
+        }
+
+        // Test 16
+        [TestMethod] 
+        public void EditWithWrongCourseId()
+        {
+            //arrange
+
+            //act
+            HttpNotFoundResult result = controller.Edit(7) as HttpNotFoundResult;
+
+            //assert
+            Assert.AreEqual(404, result.StatusCode);
+        }
+
+         // Test 17
+         [TestMethod]
+         public void EditWithNullCourseId()
+         {
+            int? nullCourse = null;
+            
+            //arrange
+
+            //act
+            HttpStatusCodeResult result = controller.Edit(nullCourse) as HttpStatusCodeResult;
+
+            //assert
+            Assert.AreEqual(400, result.StatusCode);
+         }
+
+         // Test 18
+         [TestMethod]
+         public void EditPostMethodLoadsRightIndexView()
+         {
+             //arrange
+
+             // act
+             RedirectToRouteResult result = (RedirectToRouteResult)controller.Edit(courses[0]);
+
+             //assert
+             Assert.AreEqual("Index", result.RouteValues["action"]);
+         }
+
+         // Test 19
+         [TestMethod]
+         public void EditPostMethodLoadsInvalidView()
+         {
+            Course wrong = new Course { CourseId = 40 };
+
+            // arrange
+            controller.ModelState.AddModelError("Erroe", "Don't work");
+
+            // act
+            ViewResult result = (ViewResult)controller.Edit(wrong);
+
+            // assert
+            Assert.AreEqual("Edit", result.ViewName);
+         }
+
+        // Test 20
+        [TestMethod]
+        public void EditPostMethodLoadsInvalidCourse()
+        {
+            Course wrong = new Course { CourseId = 90 };
+
+            // arrange
+            controller.ModelState.AddModelError("Error", "Don't work");
+            // act
+            Course result = (Course)((ViewResult)controller.Edit(wrong)).Model;
+
+            // assert
+            Assert.AreEqual(wrong, result);
+        }
+
+        // Test 21
+        [TestMethod]
+        public void CreateViewLoads()
+        {
+            //arrange
+
+            //act
+            ViewResult result = controller.Create() as ViewResult;
+
+            //assert
+            Assert.AreEqual("Create", result.ViewName);
+        }
+
+        // Test 22
+        [TestMethod]
+        public void CreateValidCourse()
+        {
+            Course validCourse = new Course { CourseId = 4, CourseName = "SQL", CourseLevel = "Beginner", Price = 35, CategoryId = 103 };
+
+            //act
+            RedirectToRouteResult result = (RedirectToRouteResult)controller.Create(validCourse);
+
+            //assert
+            Assert.AreEqual("Index", result.RouteValues["action"]);
+        }
+
+        // Test 23
+        [TestMethod]
+        public void CreateInvalidCourse()
+        {
+            Course InvalidCourse = new Course();
+            
+            //arrange
+            controller.ModelState.AddModelError("Error", "Don't Work");
+
+            //act
+            ViewResult result = (ViewResult)controller.Create(InvalidCourse);
+
+            //assert
+            Assert.AreEqual("Create", result.ViewName);
+        }
     }
 }

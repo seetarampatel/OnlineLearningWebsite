@@ -13,6 +13,8 @@ namespace OnlineLearningWebsite.Models
 
         Course Save(Course course);
 
+
+
         void Delete(Course course);
 
         void Dispose();

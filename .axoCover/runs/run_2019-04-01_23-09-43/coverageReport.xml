@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.6.0.0">
+  <Summary numSequencePoints="133" visitedSequencePoints="0" numBranchPoints="31" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="0" maxCrapScore="12" minCrapScore="0" visitedClasses="0" numClasses="3" visitedMethods="0" numMethods="31" />
+  <Modules>
+    <Module hash="84-38-69-DB-CE-0B-AA-10-C0-4E-3D-30-8B-E7-EE-43-02-DD-41-6A">
+      <Summary numSequencePoints="133" visitedSequencePoints="0" numBranchPoints="31" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="0" maxCrapScore="12" minCrapScore="0" visitedClasses="0" numClasses="3" visitedMethods="0" numMethods="31" />
+      <ModulePath>C:\Users\situ1\Desktop\Online Learning Website\OnlineLearningWebsite\OnlineLearningWebsite.Tests\bin\Debug\OnlineLearningWebsite.Tests.dll</ModulePath>
+      <ModuleTime>2019-04-02T03:09:42.5866978Z</ModuleTime>
+      <ModuleName>OnlineLearningWebsite.Tests</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\situ1\Desktop\Online Learning Website\OnlineLearningWebsite\OnlineLearningWebsite.Tests\Controllers\CoursesControllerTest.cs" />
+        <File uid="3" fullPath="C:\Users\situ1\Desktop\Online Learning Website\OnlineLearningWebsite\OnlineLearningWebsite.Tests\Controllers\HomeControllerTest.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="115" visitedSequencePoints="0" numBranchPoints="25" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" maxCrapScore="12" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="25" />
+          <FullName>OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::TestInitialize()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1" ordinal="0" offset="0" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="2" ordinal="1" offset="1" sl="25" sc="13" el="30" ec="15" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="3" ordinal="2" offset="172" sl="32" sc="13" el="37" ec="15" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="4" ordinal="3" offset="384" sl="39" sc="13" el="39" ec="45" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="5" ordinal="4" offset="395" sl="40" sc="13" el="40" ec="71" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="6" ordinal="5" offset="480" sl="41" sc="13" el="41" ec="77" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="7" ordinal="6" offset="565" sl="43" sc="13" el="43" ec="61" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="8" ordinal="7" offset="587" sl="44" sc="9" el="44" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1" ordinal="0" offset="0" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::IndexViewLoads()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="9" ordinal="0" offset="0" sl="49" sc="9" el="49" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="10" ordinal="1" offset="1" sl="53" sc="13" el="53" ec="66" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="11" ordinal="2" offset="18" sl="56" sc="13" el="56" ec="55" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="12" ordinal="3" offset="35" sl="57" sc="9" el="57" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="9" ordinal="0" offset="0" sl="49" sc="9" el="49" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::IndexLoadsCourses()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="13" ordinal="0" offset="0" sl="62" sc="9" el="62" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="14" ordinal="1" offset="1" sl="66" sc="13" el="66" ec="80" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="15" ordinal="2" offset="28" sl="69" sc="13" el="69" ec="57" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="16" ordinal="3" offset="41" sl="70" sc="9" el="70" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="13" ordinal="0" offset="0" sl="62" sc="9" el="62" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DetailsViewLoads()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="17" ordinal="0" offset="0" sl="75" sc="9" el="75" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="18" ordinal="1" offset="1" sl="79" sc="13" el="79" ec="69" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="19" ordinal="2" offset="24" sl="82" sc="13" el="82" ec="57" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="20" ordinal="3" offset="41" sl="83" sc="9" el="83" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="17" ordinal="0" offset="0" sl="75" sc="9" el="75" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DetailsViewWithWrongCourseId()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="21" ordinal="0" offset="0" sl="88" sc="9" el="88" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="22" ordinal="1" offset="1" sl="92" sc="13" el="92" ec="85" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="23" ordinal="2" offset="24" sl="95" sc="13" el="95" ec="53" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="24" ordinal="3" offset="41" sl="96" sc="9" el="96" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="21" ordinal="0" offset="0" sl="88" sc="9" el="88" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DetailsViewWithRightCourseId()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="25" ordinal="0" offset="0" sl="101" sc="9" el="101" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="26" ordinal="1" offset="1" sl="105" sc="13" el="105" ec="68" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="27" ordinal="2" offset="29" sl="108" sc="13" el="108" ec="84" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="28" ordinal="3" offset="78" sl="109" sc="9" el="109" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="25" ordinal="0" offset="0" sl="101" sc="9" el="101" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DetailsViewwithNullCourseId()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="31" ordinal="0" offset="0" sl="114" sc="9" el="114" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="32" ordinal="1" offset="1" sl="118" sc="13" el="118" ec="92" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="33" ordinal="2" offset="27" sl="121" sc="13" el="121" ec="53" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="34" ordinal="3" offset="44" sl="122" sc="9" el="122" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="31" ordinal="0" offset="0" sl="114" sc="9" el="114" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DeleteViewLoad()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="35" ordinal="0" offset="0" sl="127" sc="9" el="127" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="36" ordinal="1" offset="1" sl="131" sc="13" el="131" ec="68" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="37" ordinal="2" offset="24" sl="134" sc="13" el="134" ec="56" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="38" ordinal="3" offset="41" sl="135" sc="9" el="135" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="35" ordinal="0" offset="0" sl="127" sc="9" el="127" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DeleteWithWrongCourseId()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="39" ordinal="0" offset="0" sl="140" sc="9" el="140" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="40" ordinal="1" offset="1" sl="144" sc="13" el="144" ec="84" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="41" ordinal="2" offset="24" sl="147" sc="13" el="147" ec="53" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="42" ordinal="3" offset="41" sl="148" sc="9" el="148" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="39" ordinal="0" offset="0" sl="140" sc="9" el="140" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DeleteWithRightCourseId()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="43" ordinal="0" offset="0" sl="153" sc="9" el="153" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="44" ordinal="1" offset="1" sl="157" sc="13" el="157" ec="67" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="45" ordinal="2" offset="29" sl="160" sc="13" el="160" ec="84" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="46" ordinal="3" offset="78" sl="161" sc="9" el="161" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="43" ordinal="0" offset="0" sl="153" sc="9" el="153" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DeleteWithNullCourseObject()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="49" ordinal="0" offset="0" sl="166" sc="9" el="166" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="50" ordinal="1" offset="1" sl="170" sc="13" el="170" ec="91" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="51" ordinal="2" offset="27" sl="173" sc="13" el="173" ec="53" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="52" ordinal="3" offset="44" sl="174" sc="9" el="174" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="49" ordinal="0" offset="0" sl="166" sc="9" el="166" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DeleteConfirmedViewLoad()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="53" ordinal="0" offset="0" sl="179" sc="9" el="179" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="54" ordinal="1" offset="1" sl="183" sc="13" el="183" ec="68" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="55" ordinal="2" offset="24" sl="186" sc="13" el="186" ec="56" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="56" ordinal="3" offset="41" sl="187" sc="9" el="187" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="53" ordinal="0" offset="0" sl="179" sc="9" el="179" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DeleteConfimedRedirectIsValid()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="57" ordinal="0" offset="0" sl="192" sc="9" el="192" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="58" ordinal="1" offset="1" sl="194" sc="13" el="194" ec="99" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="59" ordinal="2" offset="19" sl="197" sc="13" el="197" ec="61" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="60" ordinal="3" offset="31" sl="200" sc="13" el="200" ec="61" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="61" ordinal="4" offset="54" sl="201" sc="9" el="201" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="57" ordinal="0" offset="0" sl="192" sc="9" el="192" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DeleteConfimedRedirectIsInvalid()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="62" ordinal="0" offset="0" sl="206" sc="9" el="206" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="63" ordinal="1" offset="1" sl="208" sc="13" el="208" ec="99" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="64" ordinal="2" offset="19" sl="211" sc="13" el="211" ec="61" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="65" ordinal="3" offset="31" sl="214" sc="13" el="214" ec="61" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="66" ordinal="4" offset="54" sl="215" sc="9" el="215" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="62" ordinal="0" offset="0" sl="206" sc="9" el="206" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::EditViewLoads()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="67" ordinal="0" offset="0" sl="220" sc="9" el="220" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="68" ordinal="1" offset="1" sl="221" sc="13" el="221" ec="66" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="69" ordinal="2" offset="24" sl="223" sc="13" el="223" ec="54" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="70" ordinal="3" offset="41" sl="224" sc="9" el="224" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="67" ordinal="0" offset="0" sl="220" sc="9" el="220" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::EditViewWithRightCourseId()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="71" ordinal="0" offset="0" sl="229" sc="9" el="229" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="72" ordinal="1" offset="1" sl="233" sc="13" el="233" ec="65" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="73" ordinal="2" offset="29" sl="236" sc="13" el="236" ec="84" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="74" ordinal="3" offset="78" sl="237" sc="9" el="237" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="71" ordinal="0" offset="0" sl="229" sc="9" el="229" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::EditWithWrongCourseId()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="77" ordinal="0" offset="0" sl="242" sc="9" el="242" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="78" ordinal="1" offset="1" sl="246" sc="13" el="246" ec="82" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="79" ordinal="2" offset="24" sl="249" sc="13" el="249" ec="53" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="80" ordinal="3" offset="41" sl="250" sc="9" el="250" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="77" ordinal="0" offset="0" sl="242" sc="9" el="242" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::EditWithNullCourseId()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="81" ordinal="0" offset="0" sl="254" sc="10" el="254" ec="11" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="82" ordinal="1" offset="1" sl="255" sc="13" el="255" ec="36" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="83" ordinal="2" offset="9" sl="257" sc="13" el="257" ec="95" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="84" ordinal="3" offset="27" sl="260" sc="13" el="260" ec="53" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="85" ordinal="4" offset="44" sl="261" sc="10" el="261" ec="11" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="81" ordinal="0" offset="0" sl="254" sc="10" el="254" ec="11" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::EditPostMethodLoadsIndexView()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="86" ordinal="0" offset="0" sl="265" sc="10" el="265" ec="11" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="87" ordinal="1" offset="1" sl="267" sc="14" el="267" ec="98" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="88" ordinal="2" offset="30" sl="270" sc="14" el="270" ec="62" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="89" ordinal="3" offset="42" sl="273" sc="14" el="273" ec="62" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="90" ordinal="4" offset="65" sl="274" sc="10" el="274" ec="11" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="86" ordinal="0" offset="0" sl="265" sc="10" el="265" ec="11" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::EditWithPostMethodLoadsInvalidView()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="91" ordinal="0" offset="0" sl="278" sc="10" el="278" ec="11" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="92" ordinal="1" offset="1" sl="279" sc="13" el="279" ec="73" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="93" ordinal="2" offset="28" sl="281" sc="13" el="281" ec="75" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="94" ordinal="3" offset="57" sl="284" sc="13" el="284" ec="38" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="95" ordinal="4" offset="64" sl="285" sc="9" el="285" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="91" ordinal="0" offset="0" sl="278" sc="10" el="278" ec="11" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="12" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="12" minCrapScore="12" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::EditPostLoadsRightEditViewWithViewBag()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="96" ordinal="0" offset="0" sl="290" sc="10" el="290" ec="11" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="97" ordinal="1" offset="1" sl="292" sc="14" el="292" ec="74" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="98" ordinal="2" offset="28" sl="295" sc="14" el="295" ec="97" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="99" ordinal="3" offset="203" sl="298" sc="14" el="298" ec="57" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="100" ordinal="4" offset="222" sl="299" sc="10" el="299" ec="11" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="96" ordinal="0" offset="0" sl="290" sc="10" el="290" ec="11" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::EditPostInvalidModelViewName()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="105" ordinal="0" offset="0" sl="304" sc="9" el="304" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="106" ordinal="1" offset="1" sl="305" sc="13" el="305" ec="73" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="107" ordinal="2" offset="28" sl="307" sc="13" el="307" ec="75" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="108" ordinal="3" offset="57" sl="310" sc="13" el="310" ec="54" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="109" ordinal="4" offset="74" sl="311" sc="9" el="311" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="105" ordinal="0" offset="0" sl="304" sc="9" el="304" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::CreateViewLoads()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="110" ordinal="0" offset="0" sl="314" sc="9" el="314" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="111" ordinal="1" offset="1" sl="315" sc="13" el="315" ec="67" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="112" ordinal="2" offset="18" sl="317" sc="13" el="317" ec="56" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="113" ordinal="3" offset="35" sl="318" sc="9" el="318" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="110" ordinal="0" offset="0" sl="314" sc="9" el="314" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::CreatePostRedirectIsValid()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="114" ordinal="0" offset="0" sl="322" sc="9" el="322" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="115" ordinal="1" offset="1" sl="323" sc="13" el="323" ec="135" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="116" ordinal="2" offset="62" sl="326" sc="13" el="326" ec="100" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="117" ordinal="3" offset="80" sl="329" sc="13" el="329" ec="61" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="118" ordinal="4" offset="92" sl="332" sc="13" el="332" ec="61" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="119" ordinal="5" offset="115" sl="333" sc="9" el="333" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="114" ordinal="0" offset="0" sl="322" sc="9" el="322" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::CreatePostInvalidModelViewName()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="120" ordinal="0" offset="0" sl="337" sc="9" el="337" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="121" ordinal="1" offset="1" sl="338" sc="13" el="338" ec="133" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="122" ordinal="2" offset="62" sl="340" sc="13" el="340" ec="73" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="123" ordinal="3" offset="89" sl="342" sc="13" el="342" ec="76" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="124" ordinal="4" offset="107" sl="345" sc="13" el="345" ec="56" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="125" ordinal="5" offset="124" sl="346" sc="9" el="346" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="120" ordinal="0" offset="0" sl="337" sc="9" el="337" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="126" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="3" />
+          <FullName>OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest/&lt;&gt;c</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest/&lt;&gt;c::.cctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="127" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest/&lt;&gt;c::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="128" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.Boolean OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest/&lt;&gt;c::&lt;DetailsViewWithRightCourseId&gt;b__9_0(OnlineLearningWebsite.Models.Course)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="129" ordinal="0" offset="0" sl="108" sc="58" el="108" ec="73" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="129" ordinal="0" offset="0" sl="108" sc="58" el="108" ec="73" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Boolean OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest/&lt;&gt;c::&lt;DeleteWithRightCourseId&gt;b__13_0(OnlineLearningWebsite.Models.Course)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="130" ordinal="0" offset="0" sl="160" sc="58" el="160" ec="73" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="130" ordinal="0" offset="0" sl="160" sc="58" el="160" ec="73" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.Boolean OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest/&lt;&gt;c::&lt;EditViewWithRightCourseId&gt;b__19_0(OnlineLearningWebsite.Models.Course)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="131" ordinal="0" offset="0" sl="236" sc="58" el="236" ec="73" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="131" ordinal="0" offset="0" sl="236" sc="58" el="236" ec="73" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="15" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" maxCrapScore="12" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="3" />
+          <FullName>OnlineLearningWebsite.Tests.Controllers.HomeControllerTest</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.HomeControllerTest::Index()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="132" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="133" ordinal="1" offset="1" sl="19" sc="13" el="19" ec="62" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="134" ordinal="2" offset="7" sl="22" sc="13" el="22" ec="66" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="135" ordinal="3" offset="19" sl="25" sc="13" el="25" ec="38" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="136" ordinal="4" offset="26" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="132" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="12" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="12" minCrapScore="12" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.HomeControllerTest::About()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="137" ordinal="0" offset="0" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="138" ordinal="1" offset="1" sl="32" sc="13" el="32" ec="62" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="139" ordinal="2" offset="7" sl="35" sc="13" el="35" ec="66" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="140" ordinal="3" offset="19" sl="38" sc="13" el="38" ec="91" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="141" ordinal="4" offset="219" sl="39" sc="9" el="39" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="137" ordinal="0" offset="0" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.HomeControllerTest::Contact()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="146" ordinal="0" offset="0" sl="43" sc="9" el="43" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="147" ordinal="1" offset="1" sl="45" sc="13" el="45" ec="62" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="148" ordinal="2" offset="7" sl="48" sc="13" el="48" ec="68" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="149" ordinal="3" offset="19" sl="51" sc="13" el="51" ec="38" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="150" ordinal="4" offset="26" sl="52" sc="9" el="52" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="146" ordinal="0" offset="0" sl="43" sc="9" el="43" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Void OnlineLearningWebsite.Tests.Controllers.HomeControllerTest::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="151" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+      <TrackedMethods>
+        <TrackedMethod uid="1" token="100663298" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::IndexViewLoads()" strategy="MSTestTest" />
+        <TrackedMethod uid="2" token="100663299" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::IndexLoadsCourses()" strategy="MSTestTest" />
+        <TrackedMethod uid="3" token="100663300" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DetailsViewLoads()" strategy="MSTestTest" />
+        <TrackedMethod uid="4" token="100663301" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DetailsViewWithWrongCourseId()" strategy="MSTestTest" />
+        <TrackedMethod uid="5" token="100663302" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DetailsViewWithRightCourseId()" strategy="MSTestTest" />
+        <TrackedMethod uid="6" token="100663303" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DetailsViewwithNullCourseId()" strategy="MSTestTest" />
+        <TrackedMethod uid="7" token="100663304" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DeleteViewLoad()" strategy="MSTestTest" />
+        <TrackedMethod uid="8" token="100663305" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DeleteWithWrongCourseId()" strategy="MSTestTest" />
+        <TrackedMethod uid="9" token="100663306" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DeleteWithRightCourseId()" strategy="MSTestTest" />
+        <TrackedMethod uid="10" token="100663307" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DeleteWithNullCourseObject()" strategy="MSTestTest" />
+        <TrackedMethod uid="11" token="100663308" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DeleteConfirmedViewLoad()" strategy="MSTestTest" />
+        <TrackedMethod uid="12" token="100663309" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DeleteConfimedRedirectIsValid()" strategy="MSTestTest" />
+        <TrackedMethod uid="13" token="100663310" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::DeleteConfimedRedirectIsInvalid()" strategy="MSTestTest" />
+        <TrackedMethod uid="14" token="100663311" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::EditViewLoads()" strategy="MSTestTest" />
+        <TrackedMethod uid="15" token="100663312" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::EditViewWithRightCourseId()" strategy="MSTestTest" />
+        <TrackedMethod uid="16" token="100663313" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::EditWithWrongCourseId()" strategy="MSTestTest" />
+        <TrackedMethod uid="17" token="100663314" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::EditWithNullCourseId()" strategy="MSTestTest" />
+        <TrackedMethod uid="18" token="100663315" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::EditPostMethodLoadsIndexView()" strategy="MSTestTest" />
+        <TrackedMethod uid="19" token="100663316" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::EditWithPostMethodLoadsInvalidView()" strategy="MSTestTest" />
+        <TrackedMethod uid="20" token="100663317" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::EditPostLoadsRightEditViewWithViewBag()" strategy="MSTestTest" />
+        <TrackedMethod uid="21" token="100663318" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::EditPostInvalidModelViewName()" strategy="MSTestTest" />
+        <TrackedMethod uid="22" token="100663319" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::CreateViewLoads()" strategy="MSTestTest" />
+        <TrackedMethod uid="23" token="100663320" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::CreatePostRedirectIsValid()" strategy="MSTestTest" />
+        <TrackedMethod uid="24" token="100663321" name="System.Void OnlineLearningWebsite.Tests.Controllers.CoursesControllerTest::CreatePostInvalidModelViewName()" strategy="MSTestTest" />
+        <TrackedMethod uid="25" token="100663323" name="System.Void OnlineLearningWebsite.Tests.Controllers.HomeControllerTest::Index()" strategy="MSTestTest" />
+        <TrackedMethod uid="26" token="100663324" name="System.Void OnlineLearningWebsite.Tests.Controllers.HomeControllerTest::About()" strategy="MSTestTest" />
+        <TrackedMethod uid="27" token="100663325" name="System.Void OnlineLearningWebsite.Tests.Controllers.HomeControllerTest::Contact()" strategy="MSTestTest" />
+      </TrackedMethods>
+    </Module>
+  </Modules>
+</CoverageSession>

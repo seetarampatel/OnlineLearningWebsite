@@ -74,7 +74,7 @@ namespace OnlineLearningWebsite.Controllers
             }
 
             ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "CategoryArea", course.CategoryId);
-            return View(course);
+            return View("Create", course);
         }
 
         // GET: Courses/Edit/5
