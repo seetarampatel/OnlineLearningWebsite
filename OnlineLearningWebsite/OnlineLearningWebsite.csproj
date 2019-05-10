@@ -187,8 +187,10 @@
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\DbModel.cs" />
+    <Compile Include="Models\IDataCategories.cs" />
     <Compile Include="Models\IDataCourses.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\IMockCategories.cs" />
     <Compile Include="Models\IMockCourses.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

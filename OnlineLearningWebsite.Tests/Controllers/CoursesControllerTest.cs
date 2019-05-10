@@ -30,6 +30,7 @@ namespace OnlineLearningWebsite.Tests.Controllers
             };
 
             mock = new Mock<IMockCourses>();
+
             mock.Setup(c => c.Courses).Returns(courses.AsQueryable());
 
             controller = new CoursesController(mock.Object);

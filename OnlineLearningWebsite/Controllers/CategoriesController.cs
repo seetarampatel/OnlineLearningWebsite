@@ -13,12 +13,24 @@ namespace OnlineLearningWebsite.Controllers
 
     public class CategoriesController : Controller
     {
-        private DbModel db = new DbModel();
+        // private DbModel db = new DbModel();
+        IMockCategories db;
 
+        // this constructor leads to the sql server
+        public CategoriesController()
+        {
+            this.db = new IDataCategories();
+        }
+
+        // this constructor leads us to the moq data
+        public CategoriesController(IMockCategories mockDb)
+        {
+            this.db = mockDb;
+        }
         // GET: Categories
         public ActionResult Index()
         {
-            return View(db.Categories.ToList());
+            return View("Index", db.Categories.ToList());
         }
 
         // GET: Categories/Details/5
@@ -28,12 +40,13 @@ namespace OnlineLearningWebsite.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Category category = db.Categories.Find(id);
+            // Category category = db.Categories.Find(id);
+            Category category = db.Categories.SingleOrDefault(c => c.CategoryId == id);
             if (category == null)
             {
                 return HttpNotFound();
             }
-            return View(category);
+            return View("Details", category);
         }
 
         // GET: Categories/Create
@@ -53,8 +66,9 @@ namespace OnlineLearningWebsite.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Categories.Add(category);
-                db.SaveChanges();
+                // db.Categories.Add(category);
+                // db.SaveChanges();
+                db.Save(category);
                 return RedirectToAction("Index");
             }
 
@@ -69,7 +83,8 @@ namespace OnlineLearningWebsite.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Category category = db.Categories.Find(id);
+            // Category category = db.Categories.Find(id);
+            Category category = db.Categories.SingleOrDefault(c => c.CategoryId == id);
             if (category == null)
             {
                 return HttpNotFound();
@@ -87,8 +102,9 @@ namespace OnlineLearningWebsite.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Entry(category).State = EntityState.Modified;
-                db.SaveChanges();
+                // db.Entry(category).State = EntityState.Modified;
+                // db.SaveChanges();
+                db.Save(category);
                 return RedirectToAction("Index");
             }
             return View(category);
@@ -102,12 +118,13 @@ namespace OnlineLearningWebsite.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Category category = db.Categories.Find(id);
+            // Category category = db.Categories.Find(id);
+            Category category = db.Categories.SingleOrDefault(c => c.CategoryId == id);
             if (category == null)
             {
                 return HttpNotFound();
             }
-            return View(category);
+            return View("Delete", category);
         }
 
         // POST: Categories/Delete/5
@@ -116,9 +133,11 @@ namespace OnlineLearningWebsite.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Category category = db.Categories.Find(id);
-            db.Categories.Remove(category);
-            db.SaveChanges();
+            // Category category = db.Categories.Find(id);
+            Category category = db.Categories.SingleOrDefault(c => c.CategoryId == id);
+            // db.Categories.Remove(category);
+            // db.SaveChanges();
+            db.Delete(category);
             return RedirectToAction("Index");
         }
 
