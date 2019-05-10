@@ -17,7 +17,7 @@
 <hr>
 
 <h2>LogIn Page</h2>	
-<img src = "OnlineLearningWebsite/Content/Images/LoginPage.png" />
+<img src = "OnlineLearningWebsite/Content/Images/LogInPage.png" />
 <hr>
 
 <h2>Categories Page</h2>	
