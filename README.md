@@ -4,7 +4,7 @@
 
 <p>Online Learning Website also support google API so that users can log in with their google accounts.</p>
 
-<p>100 % unit testing on CoursesController with the coverage of Index, Create: GET, Create: POST, Edit: GET, Edit: POST, Delete and Delete Confirmed.</p>
+<p>100 % unit testing on CoursesController and CategoriesController with the coverage of Index, Create: GET, Create: POST, Edit: GET, Edit: POST, Delete and Delete Confirmed.</p>
 
 <p>Bootstrap Darkly theme from: <a href="https://bootswatch.com/3/">https://bootswatch.com/3/</a></p>
 
